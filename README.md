@@ -1,5 +1,5 @@
-# intuit-login-page-clone
-This is a clone of intuit website's login page clone
+# intuit-signup-page-clone
+This is a clone of intuit website's signup page clone
 
 ## BUILT WITH
 
@@ -8,12 +8,12 @@ This is a clone of intuit website's login page clone
 - CSS
 
 ## Live Demo
-- [Live Demo Link](https://adejam.github.io/intuit-login-page-clone/index.html)
+- [Live Demo Link](https://adejam.github.io/intuit-signup-page-clone/index.html)
 
 ## Images
-![Youtube video page clone](/images/login-page.png)
+![Youtube video page clone](/images/signup-page.png)
 ## Screenshot: 
-![Youtube video page clone](/images/login-page.png)
+![Youtube video page clone](/images/signup-page.png)
 
 
 
