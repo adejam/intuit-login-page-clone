@@ -1,0 +1,69 @@
+body{
+	background: #ECEEF1;
+}
+
+#navbar{
+	height: 60px;
+	float: none;
+    padding: 10px 30px 10px 30px;
+    background: #eceef1;
+    margin: 0px;
+}
+
+.link_container{
+	float: right;
+	font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color: #505050;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.link_container a{
+	text-decoration: none;
+	color: #0077C5;
+	background: transparent;
+}
+
+.left_nav{
+	float: left;
+    text-align: right;
+    margin: 0px 0px 0px 10px;
+    padding: 0;
+    outline: none;
+}
+
+.right_nav{
+	float: left;
+    margin: 0px 0px 0px 10px;
+    padding: 0;
+    outline: none;
+    text-align: right;
+}
+
+#signin_button{
+	background: #0077C5;
+    border-radius: 4px;
+    border: 1px solid #4c4c4c;
+    padding: 0 20px;
+    height: 34px;
+    color: white;
+    cursor: pointer;
+    font-size: 1.125em;
+    font-weight: normal;
+}
+
+.lock{
+	height: 1em;
+    width: 0.8em;
+    margin: 2px 4px 0px 0px;
+    vertical-align: text-top;
+    display: inline-block;
+    background-image: url('images/lock.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
