@@ -23,9 +23,10 @@ body{
     text-align: left;
 }
 
-.link_container a{
+.link{
 	text-decoration: none;
 	color: #0077C5;
+	font-size: 12px;
 	background: transparent;
 }
 
@@ -66,4 +67,331 @@ body{
     background-image: url('images/lock.png');
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.header{
+	text-align: center;
+	padding-bottom: 20px 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 0;
+    border-bottom-color: transparent;
+}
+
+.title{
+	list-style: none;
+    list-style-image: none;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    padding: 0;
+    outline: none;
+}
+
+.title a{
+	width: 118px;
+    height: 35px;
+    margin: 0 auto;
+    display: block;
+    text-decoration: none;
+    background-position: 0 0;
+    background-image: url('images/header.png');
+}
+
+.head{
+	padding-bottom: 4px;
+    padding-top: 0;
+	border-bottom-style: solid;
+    border-bottom-width: 0;
+    border-bottom-color: transparent;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.head div{
+    list-style: none;
+    list-style-image: none;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+
+.head ul{
+    height: 23px;
+    /*width: 318px;*/
+    overflow: hidden;
+    margin: 0px auto 15px;
+    position: relative;
+    white-space: nowrap;
+    display: block;
+    text-align: center;
+    padding: 0;
+}
+
+.list_item{
+    /*left: 142px; */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.list_text{
+	margin-right: 9px;
+}
+.list_icon{
+	 width: 23px;
+    height: 23px;
+    margin-right: 4px;
+    
+}
+#mint_icon{ 
+    background: url('images/mint.svg') no-repeat;  
+}
+
+#mint_text{
+	background: url('images/mint_text.svg') no-repeat;
+    width: 37px;
+    height: 20px;
+}
+
+#qb_icon{
+	background: url('images/qb_icon.svg') no-repeat;
+}
+
+#qb_text{
+	background: url('images/qb_text.svg') no-repeat;
+	width: 98px;
+    height: 22px;
+
+}
+
+#cb_icon{
+	background: url('images/cb_icon.svg') no-repeat;
+}
+
+#cb_text{
+	background: url('images/cb_text.svg') no-repeat;
+	width: 74px;
+    height: 22px;
+}
+
+.main{
+	font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	box-shadow: none;
+	font-size: 14px;
+    font-weight: normal;
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+    margin: auto;
+    overflow: visible;
+    padding: 30px;
+    box-sizing: border-box;
+    width: 380px;
+    border-radius: 2px;
+}
+
+.form_header{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.form_title{
+     color: #4C4C4C;
+    font-weight: 400;
+    line-height: 1.1;
+    font-size: 24px;
+    display: block;
+}
+
+.form_title_des{
+	color: #4C4C4C;
+    font-size: 14px;
+    display: block;
+    padding-top: 20px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+fieldset{
+	border: 0;
+}
+
+.label{
+	font-weight: normal;
+    color: #404040;
+    font-size: 14px;
+    line-height: 25px;
+    padding-bottom: 6px;
+    display: block;
+}
+
+.form_div{
+	width: 320px;
+    min-width: 160px;
+    height: 34px;
+    position: relative;
+}
+
+.form_input{
+	border: 1px solid #C1C5C8;
+	height: 30px;
+    width: 290px;
+    min-width: 160px;
+    padding-left: 8px;
+    padding-right: 6px;
+    color: #000000;
+    outline: none;
+    font-size: 1.2em;
+    border-radius: 3px;
+    line-height: 1.3em;
+    margin: 0;
+}
+
+.input_des{
+	display: block;
+    height: 20px;
+    padding: 5px 0;
+    font-size: 10px;
+    color: #444;
+    word-wrap: break-word;
+    /*margin-top: 5px;*/
+    /*margin-bottom: 5px;*/
+    line-height: 1.2em;
+}
+
+.password_lock{
+	background: url('images/password_lock.png') no-repeat 0% 50% / 21px 21px;
+    width: 33px ;
+    position: absolute;
+    right: 15px;
+    height: 32px;
+    top: 1px;
+    bottom: 1px;
+}
+
+.submit_div{
+	padding-bottom: 30px;
+	padding-left: 10px;
+	margin-bottom: 30px;
+}
+
+.submit_button{
+	background: #0077C5;
+    border: none;
+    border-color: #0077C5;
+    border-radius: 4px;
+    text-transform: capitalize;
+    float: left;
+    width: 100%;
+    height: 44px;
+    text-shadow: none;
+    font-weight: normal;
+    color: #FFF;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+    min-width: 100px;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 1.125em;
+}
+
+.form_footer{
+	text-align: center;
+	display: block;
+}
+
+.form_footer_text{
+    font-size: 12px;
+    font-style: italic;
+    color: #757575;
+}
+
+.recaptcha{
+	background-color: #ECEEF1;
+	margin: 32px -30px -30px -30px;
+    padding: 16px;
+    text-align: center;
+}
+
+.recaptcha_text{
+	font-size: 10px;
+    color: #8d9096;
+    padding-bottom: 15px;
+}
+
+.recaptcha_link{
+	text-decoration: none;
+	color: #0077C5;
+	background: transparent;
+}
+
+.main_footer{
+	color: #505050;
+	width: 90%;
+	font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    margin: 0 auto;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer_links{
+	padding: 0px;
+}
+
+.footer_links ul{
+	font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial sans-serif;
+	list-style: none;
+    list-style-image: none;
+    padding: 5px 0px 0px 0px;
+}
+
+.footer_list{
+	display: inline;
+}
+
+.first_list{
+	padding: 0px;
+}
+
+.other_list{
+	padding-left: 10px;
+}
+
+.list_link{
+	color: #505050;
+	text-decoration: none;
+	background: transparent;
+}
+
+.footer_bottom{
+	color: #505050;
+	padding: 0;
+}
+
+.modal{
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    background-color: #6B6C72;
+    border-radius: 3px;
+    z-index: 100;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0px;
+    right: 5%;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.modal_div{
+    padding: 10px 12px;
+    vertical-align: middle;
+    color: #fff;
+    float: left;
 }
